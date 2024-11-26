@@ -1,6 +1,6 @@
-flavonoids_hsqldb
+## Flavonoids
 
-RELEASE NOTES
+#### RELEASE NOTES
 
 flavonoids_hsqldb v0.02
 

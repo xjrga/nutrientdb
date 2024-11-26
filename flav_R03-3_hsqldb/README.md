@@ -1,19 +1,12 @@
-Flav_R03-3_hsqldb
+## Flav_R03-3
 
     • Created hsqldb database that has same schema and data as in Flav_R03-3 flavonoid database data
-    • These flavonoids help maintain health through cardioprotective, anti-cancer, antioxidant and anti-inflammatory activity
-     
-   [Original Data from Nutrient Data Laboratory at Beltsville, MD](https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/nutrient-data-laboratory/docs/usda-special-interest-databases-on-flavonoids "")
+    • These flavonoids help maintain health through cardioprotective, anti-cancer, antioxidant and anti-inflammatory activity     
 
-Installing
+## Author
 
-[How To Open a Hsqldb Database Using SqlWorkbench](https://x-jrga.github.io/other/opendb1.html)
-      
-Author
+    Jorge R Garcia de Alba
 
-[Jorge R Garcia de Alba](https://x-jrga.github.io "Jorge R Garcia de Alba")
+## Source
 
-Acknowledgments
-
-    I would like to thank the USA, USDA and Nutrient Data Laboratory at Beltsville, MD 
-    for making this data available
+    Bhagwat, Seema; Haytowitz, David B. (2022). USDA Database for the Flavonoid Content of Selected Foods, Release 3.3 (March 2018). Nutrient Data Laboratory, Beltsville Human Nutrition Research Center, ARS, USDA. https://doi.org/10.15482/USDA.ADC/1529181
