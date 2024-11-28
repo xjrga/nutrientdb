@@ -21,7 +21,7 @@ SELECT
        a.n209,
        -- 210, Sucrose, g	
        a.n210 AS sucrose,
-       -- 211, Glucose (dea.rose), g	
+       -- 211, Glucose (dextrose), g	
        a.n211 AS glucose,
        -- 212, Fructose, g	
        a.n212 AS fructose,
@@ -50,31 +50,31 @@ SELECT
        -- 301, Calcium, Ca, mg	
        a.n301 AS calcium,
        -- 303, Iron, Fe, mg	
-       a.n303 AS magnesium,
+       a.n303 AS iron,
        -- 304, Magnesium, Mg, mg	
-       a.n304 AS phosphorus,
+       a.n304 AS magnesium,
        -- 305, Phosphorus, P, mg	
-       a.n305 AS potassium,
+       a.n305 AS phosphorus,
        -- 306, Potassium, K, mg	
-       a.n306 AS sodium,
+       a.n306 AS potassium,
        -- 307, Sodium, Na, mg	
-       a.n307 AS zinc,
+       a.n307 AS sodium,
        -- 309, Zinc, Zn, mg	
-       a.n309 AS copper,
+       a.n309 AS zinc,
        -- 312, Copper, Cu, mg	
-       a.n312 AS fluoride,
+       a.n312 AS copper,
        -- 313, Fluoride, F, µg	
-       a.n313 AS manganese,
+       a.n313 AS flouride,
        -- 315, Manganese, Mn, mg	
-       a.n315 AS selenium,
+       a.n315 AS manganese,
        -- 317, Selenium, Se, µg	
        a.n317,
        -- 318, Vitamin A, IU, IU	
        a.n318,
        -- 319, Retinol, µg	
-       a.n319 AS vitamin_a,
+       a.n319,
        -- 320, Vitamin A, RAE, µg	
-       a.n320,
+       a.n320 as vitamin_a,
        -- 321, Carotene, beta, µg	
        a.n321,
        -- 322, Carotene, alpha, µg	
@@ -89,12 +89,12 @@ SELECT
        a.n326,
        -- 328, Vitamin D (D2 + D3), µg	
        a.n328 AS vitamin_d,
-       -- 334, Cryptoa.nthin, beta, µg	
-       a.n334 AS lycopene,
+       -- 334, Cryptoaxanthin, beta, µg	
+       a.n334,
        -- 337, Lycopene, µg	
-       a.n337 AS lutein_zeaa.nthin,
-       -- 338, Lutein + zeaa.nthin, µg	
-       a.n338,
+       a.n337 as lycopene,
+       -- 338, Lutein + zeaxanthin, µg	
+       a.n338 as lutein_zeaxanthin,
        -- 341, Tocopherol, beta, mg	
        a.n341,
        -- 342, Tocopherol, gamma, mg	
@@ -108,31 +108,31 @@ SELECT
        -- 346, Tocotrienol, gamma, mg	
        a.n346,
        -- 347, Tocotrienol, delta, mg	
-       a.n347 AS vitamin_c,
+       a.n347,
        -- 401, Vitamin C, total ascorbic acid, mg	
-       a.n401 AS thiamin,
+       a.n401 AS vitamin_c,
        -- 404, Thiamin, mg	
-       a.n404 AS riboflavin,
+       a.n404 AS thiamin,
        -- 405, Riboflavin, mg	
-       a.n405 AS niacin,
+       a.n405 AS riboflavin,
        -- 406, Niacin, mg	
-       a.n406 AS panthothenic_acid,
+       a.n406 AS niacin,
        -- 410, Pantothenic acid, mg	
-       a.n410 AS vitamin_b6,
+       a.n410 AS pantothenic_acid,
        -- 415, Vitamin B-6, mg	
-       a.n415 AS folate,
+       a.n415 AS vitamin_b6,
        -- 417, Folate, total, µg	
-       a.n417 AS vitamin_b12,
+       a.n417 AS folate,
        -- 418, Vitamin B-12, µg	
-       a.n418 AS choline,
+       a.n418 AS vitamin_b12,
        -- 421, Choline, total, mg	
-       a.n421,
+       a.n421 as choline,
        -- 428, Menaquinone-4, µg	
        a.n428,
        -- 429, Dihydrophylloquinone, µg	
-       a.n429 AS vitamin_k,
+       a.n429, 
        -- 430, Vitamin K (phylloquinone), µg	
-       a.n430,
+       a.n430 as vitamin_k,
        -- 431, Folic acid, µg	
        a.n431,
        -- 432, Folate, food, µg	
@@ -186,9 +186,9 @@ SELECT
        -- 601, Cholesterol, mg	
        a.n601 AS cholesterol,
        -- 605, Fatty acids, total trans, g	
-       a.n605 AS sfa,
+       a.n605,
        -- 606, Fatty acids, total saturated, g	
-       a.n606,
+       a.n606 as sfa,
        -- 607, 4:0, g	
        a.n607,
        -- 608, 6:0, g	
@@ -212,11 +212,11 @@ SELECT
        -- 618, 18:2 undifferentiated, g	
        a.n618 AS linoleic,
        -- 619, 18:3 undifferentiated, g	
-       a.n619 AS linolenic,
+       a.n619 as linolenic,
        -- 620, 20:4 undifferentiated, g	
-       a.n620 AS dha,
+       a.n620, 
        -- 621, 22:6 n-3 (DHA), g	
-       a.n621,
+       a.n621 as dha,
        -- 624, 22:0, g	
        a.n624,
        -- 625, 14:1, g	
@@ -240,11 +240,11 @@ SELECT
        -- 639, Campesterol, mg	
        a.n639,
        -- 641, Beta-sitosterol, mg	
-       a.n641 AS mufa,
+       a.n641, 
        -- 645, Fatty acids, total monounsaturated, g	
-       a.n645 AS pufa,
+       a.n645 as mufa,
        -- 646, Fatty acids, total polyunsaturated, g	
-       a.n646,
+       a.n646 as pufa,
        -- 652, 15:0, g	
        a.n652,
        -- 653, 17:0, g	
@@ -274,9 +274,9 @@ SELECT
        -- 674, 18:1 c, g	
        a.n674,
        -- 675, 18:2 n-6 c,c, g	
-       a.n675 AS la,
+       a.n675,
        -- 676, 22:1 c, g	
-       a.n676 AS ala,
+       a.n676,
        -- 685, 18:3 n-6 c,c,c, g	
        a.n685,
        -- 687, 17:1, g	
@@ -292,7 +292,7 @@ SELECT
        -- 697, 15:1, g	
        a.n697,
        -- 851, 18:3 n-3 c,c,c (ALA), g	
-       a.n851,
+       a.n851 as ala,
        -- 852, 20:3 n-3, g	
        a.n852,
        -- 853, 20:3 n-6, g	
