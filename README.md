@@ -1,20 +1,23 @@
-#USDA National Nutrient Databases Stored In HSQLDB
-
-1. sr28
-2. flav_R03-3
+#Data Stored In This Database Is From The Following USDA National Nutrient Databases.
 
 ## Composition of Foods Raw, Processed, Prepared USDA National Nutrient Database for Standard Reference, Release 28
 
-    The database consists of several sets of data: food descriptions, nutrients, weights and measures, footnotes, and sources of data.
+US Department of Agriculture, Agricultural Research Service. 2016. Nutrient Data Laboratory. USDA National Nutrient Database for Standard Reference, Release 28 (Slightly revised). Version Current: May 2016. http://www.ars.usda.gov/nea/bhnrc/mafcl
+
+sr28db.zip -> sr28.accdb
 
 ## USDA Database for the Flavonoid Content of Selected Foods, Release 3.3 (March 2018)
 
-    The database contains values for 506 food items for five subclasses of flavonoids.
+Haytowitz, D.B., Wu, X., Bhagwat, S. 2018. USDA Database for the Flavonoid Content of Selected Foods, Release 3.3. U.S. Department of Agriculture, Agricultural Research Service. Nutrient Data Laboratory Home Page:http://www.ars.usda.gov/nutrientdata/flav
 
-## Source
+24659802.zip -> Flav_R03-3.accdb
 
-    US Department of Agriculture, Agricultural Research Service. 2016. Nutrient Data Laboratory. USDA National Nutrient Database for Standard Reference, Release 28 (Slightly revised). Version Current: May 2016. http://www.ars.usda.gov/nea/bhnrc/mafcl
+## USDA Database for the Isoflavone Content of Selected Foods Release 2.1 (November 2015)
 
+U.S. Department of Agriculture, Agricultural Research Service. 2015. USDA Database for the Isoflavone Content of Selected Foods, Release 2.1. Nutrient Data Laboratory Home Page: http://www.ars.usda.gov/nutrientdata/isoflav
+
+25060835.zip -> Isoflav_R2-1.accdb
+ 
 ## Author
 
 Jorge R Garcia de Alba
